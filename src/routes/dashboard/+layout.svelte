@@ -18,8 +18,7 @@
 	});
   
 	function logout() {
-	  localStorage.removeItem('token');
-	  localStorage.removeItem('user_role');
+	  localStorage.clear()
 	  goto('/login');
 	}
   </script>
